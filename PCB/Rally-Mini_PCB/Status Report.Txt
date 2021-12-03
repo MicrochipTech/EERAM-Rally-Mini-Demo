@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [Rally-Mini_PCB.PrjPcb]
+   Generated File[Rally-Mini_PCB.TXT]
+   Generated File[Rally-Mini_PCB.LDP]
+   Generated File[Rally-Mini_PCB.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 9:40:16 AM On 3/16/2020
