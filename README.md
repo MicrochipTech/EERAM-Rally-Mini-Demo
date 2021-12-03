@@ -1,6 +1,6 @@
 # EERAM Rally Mini Demo
 
-[Demonstration Video](https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/EERAM-Rally-Mini-Demo.mp4)
+[![Demonstration Video](/Docs/Media/EERAM-Rally-Mini-Demo.png)](https://vimeo.com/604094518)
 
 ## ABOUT
 The demo is supposed to showcase the special capabilities of this part in a game that simulates a “Black Box” recorder function. So that the race outcome can be examined after the fact any number of times. From the beginning of the race, every move by the driver, and the positions of the other cars is recorded 30 times a second into the EERAM which can hold 30 seconds of race time. If it becomes full, the program wraps back to the beginning to form a circular buffer, always marking the last sample taken.
@@ -9,10 +9,6 @@ The demo uses an SPI EERAM part, with a density of 64kbits, the  [**48L640**](ht
 
 EERAM is a standalone SRAM memory with shadow EEPROM backup that retains the contents of the SRAM memory when system power is lost. The EERAM uses a small external capacitor (VCAP on the PIM
 board) to provide the energy needed to store the contents of the SRAM onto the EEPROM whenever power is lost. Unlike NVSRAM, no external battery is needed. EERAM offers unlimited erase and write cycles to the SRAM memory and FRAM-like functionality at a fraction of the price.
-
-![Demonstration](/Docs/Media/EERAM-Rally-Mini-Demo.gif)
-
-[Full Video](https://github.com/MicrochipTech/SWI-Connector-Demo/raw/main/Docs/Media/EERAM-Rally-Mini-Demo.mp4)
 
 ## Mini Rally Game Board
 The board showcases some other Microchip components. This includes the PIC18F47K40 8-bit MCU, and the MCP16252 DC/DC Boost converter. Power is supplied by two AAA batteries which are reverse
